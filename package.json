@@ -1,0 +1,30 @@
+{
+    "name": "gulp-asciidoctor-sample",
+    "version": "1.0.0",
+    "description": "sample for using the gulp-asciidoc plugin",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/blndev/gulp-asciidoctor-sample.git"
+    },
+    "keywords": [
+    "gulp",
+    "asciidoctor",
+    "sample",
+    "demo"
+  ],
+    "author": "Daniel Bedarf",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/blndev/gulp-asciidoctor-sample/issues"
+    },
+    "homepage": "https://github.com/blndev/gulp-asciidoctor-sample",
+    "dependencies": {
+        "gulp": "^3.9.1",
+        "gulp-asciidoctor": "^1.0.8"
+    },
+    "private": "true"
+}
