@@ -1,0 +1,41 @@
+= gulp-asciidoctor-samples
+
+This project shows how to use teh gulp-asciidoctor plugin to generate a documentations based on AsciiDoc files.
+
+
+== Build Status
+image:https://travis-ci.org/blndev/gulp-asciidoctor-sample.svg?branch=master["Build Status", link="https://travis-ci.org/blndev/gulp-asciidoctor-sample"]
+
+== Prerequisites
+* NodeJS
++
+Download and install from https://nodejs.org/
+
+* Gulp
++
+Run: _npm install gulp -g_
+
+* Project dependencies
++
+Dependencies are installed automatically by npm. They are listed in the package.json.
++
+Run: _npm install_
+
+== How to run
+
+To execute a build you have to run the command _gulp_ in the root folder of the repository.
+If you like to experiment, you can run _gulp dev_.
+These command will run a gulp watcher, which rebuilds the documentation automatically for every change you made.
+
+== the Folders
+* /dist/
++
+The folder for ever generated output.
+
+* /docs/
++
+The folder is our documentation source.
+
+* /node_modules/
++
+Contains the installed dependencies.
